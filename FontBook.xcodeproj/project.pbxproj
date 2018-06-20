@@ -15,6 +15,10 @@
 		01B08A7320DA4127001C1FB0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A7220DA4127001C1FB0 /* Fonts.swift */; };
 		01B08A7420DA4127001C1FB0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A7220DA4127001C1FB0 /* Fonts.swift */; };
 		01B08A7620DA4176001C1FB0 /* HelveticaNeue.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */; };
+		01B08A7C20DA49BA001C1FB0 /* Arial Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7820DA49BA001C1FB0 /* Arial Italic.ttf */; };
+		01B08A7D20DA49BA001C1FB0 /* Arial Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7920DA49BA001C1FB0 /* Arial Bold.ttf */; };
+		01B08A7E20DA49BA001C1FB0 /* Arial Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7A20DA49BA001C1FB0 /* Arial Bold Italic.ttf */; };
+		01B08A7F20DA49BA001C1FB0 /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7B20DA49BA001C1FB0 /* Arial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		01B08A7220DA4127001C1FB0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttc; sourceTree = "<group>"; };
 		01B08A7720DA439B001C1FB0 /* FontBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = FontBook.podspec; sourceTree = "<group>"; };
+		01B08A7820DA49BA001C1FB0 /* Arial Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Italic.ttf"; sourceTree = "<group>"; };
+		01B08A7920DA49BA001C1FB0 /* Arial Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Bold.ttf"; sourceTree = "<group>"; };
+		01B08A7A20DA49BA001C1FB0 /* Arial Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Bold Italic.ttf"; sourceTree = "<group>"; };
+		01B08A7B20DA49BA001C1FB0 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +101,22 @@
 			children = (
 				01B08A6320DA40E2001C1FB0 /* FontBookTests.swift */,
 				01B08A7220DA4127001C1FB0 /* Fonts.swift */,
-				01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */,
+				01B08A8020DA49F0001C1FB0 /* Fonts */,
 				01B08A6520DA40E2001C1FB0 /* Info.plist */,
 			);
 			path = FontBookTests;
+			sourceTree = "<group>";
+		};
+		01B08A8020DA49F0001C1FB0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				01B08A7B20DA49BA001C1FB0 /* Arial.ttf */,
+				01B08A7820DA49BA001C1FB0 /* Arial Italic.ttf */,
+				01B08A7920DA49BA001C1FB0 /* Arial Bold.ttf */,
+				01B08A7A20DA49BA001C1FB0 /* Arial Bold Italic.ttf */,
+				01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B08A7620DA4176001C1FB0 /* HelveticaNeue.ttc in Resources */,
+				01B08A7E20DA49BA001C1FB0 /* Arial Bold Italic.ttf in Resources */,
+				01B08A7C20DA49BA001C1FB0 /* Arial Italic.ttf in Resources */,
+				01B08A7F20DA49BA001C1FB0 /* Arial.ttf in Resources */,
+				01B08A7D20DA49BA001C1FB0 /* Arial Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
