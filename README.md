@@ -29,6 +29,7 @@ First, copy the font files you want to use into your project. FontBook uses UIFo
 import FontBook
 ```
 
+Create an enum with a raw value of `FontBook`. For each font that you copied into your project, add a case and name it appropriately. Give each case a raw value matching the font file's name.
 ```
 enum Fonts: FontBook {
     case arial = "Arial"
@@ -40,6 +41,7 @@ enum Fonts: FontBook {
 }
 ```
 
+To access `UIFont`:
 ```
 let font = Fonts.arial.rawValue.of(size: 12, color: .black)
 ```
