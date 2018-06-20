@@ -12,6 +12,8 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
     spec.ios.framework  = 'UIKit'
     
+    spec.platform = :ios, "9.0"
+    
     spec.source_files = "FontBook/**/*.{h,swift}"
     
 end
