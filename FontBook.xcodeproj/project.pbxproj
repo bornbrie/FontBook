@@ -10,6 +10,11 @@
 		01B08A5F20DA40E2001C1FB0 /* FontBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B08A5520DA40E2001C1FB0 /* FontBook.framework */; };
 		01B08A6420DA40E2001C1FB0 /* FontBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A6320DA40E2001C1FB0 /* FontBookTests.swift */; };
 		01B08A6620DA40E2001C1FB0 /* FontBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B08A5820DA40E2001C1FB0 /* FontBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B08A7020DA40FD001C1FB0 /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A6F20DA40FD001C1FB0 /* FontBook.swift */; };
+		01B08A7120DA40FD001C1FB0 /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A6F20DA40FD001C1FB0 /* FontBook.swift */; };
+		01B08A7320DA4127001C1FB0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A7220DA4127001C1FB0 /* Fonts.swift */; };
+		01B08A7420DA4127001C1FB0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B08A7220DA4127001C1FB0 /* Fonts.swift */; };
+		01B08A7620DA4176001C1FB0 /* HelveticaNeue.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,10 @@
 		01B08A5E20DA40E2001C1FB0 /* FontBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B08A6320DA40E2001C1FB0 /* FontBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBookTests.swift; sourceTree = "<group>"; };
 		01B08A6520DA40E2001C1FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B08A6F20DA40FD001C1FB0 /* FontBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
+		01B08A7220DA4127001C1FB0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttc; sourceTree = "<group>"; };
+		01B08A7720DA439B001C1FB0 /* FontBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = FontBook.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 		01B08A4B20DA40E2001C1FB0 = {
 			isa = PBXGroup;
 			children = (
+				01B08A7720DA439B001C1FB0 /* FontBook.podspec */,
 				01B08A5720DA40E2001C1FB0 /* FontBook */,
 				01B08A6220DA40E2001C1FB0 /* FontBookTests */,
 				01B08A5620DA40E2001C1FB0 /* Products */,
@@ -71,6 +81,7 @@
 		01B08A5720DA40E2001C1FB0 /* FontBook */ = {
 			isa = PBXGroup;
 			children = (
+				01B08A6F20DA40FD001C1FB0 /* FontBook.swift */,
 				01B08A5820DA40E2001C1FB0 /* FontBook.h */,
 				01B08A5920DA40E2001C1FB0 /* Info.plist */,
 			);
@@ -81,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				01B08A6320DA40E2001C1FB0 /* FontBookTests.swift */,
+				01B08A7220DA4127001C1FB0 /* Fonts.swift */,
+				01B08A7520DA4176001C1FB0 /* HelveticaNeue.ttc */,
 				01B08A6520DA40E2001C1FB0 /* Info.plist */,
 			);
 			path = FontBookTests;
@@ -148,6 +161,7 @@
 				TargetAttributes = {
 					01B08A5420DA40E2001C1FB0 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					01B08A5D20DA40E2001C1FB0 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -184,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B08A7620DA4176001C1FB0 /* HelveticaNeue.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B08A7320DA4127001C1FB0 /* Fonts.swift in Sources */,
+				01B08A7020DA40FD001C1FB0 /* FontBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B08A6420DA40E2001C1FB0 /* FontBookTests.swift in Sources */,
+				01B08A7420DA4127001C1FB0 /* Fonts.swift in Sources */,
+				01B08A7120DA40FD001C1FB0 /* FontBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +358,7 @@
 		01B08A6A20DA40E2001C1FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +368,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FontBook/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = brianna.FontBook;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +386,7 @@
 		01B08A6B20DA40E2001C1FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +396,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FontBook/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +413,7 @@
 		01B08A6D20DA40E2001C1FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
 				INFOPLIST_FILE = FontBookTests/Info.plist;
@@ -407,6 +432,7 @@
 		01B08A6E20DA40E2001C1FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
 				INFOPLIST_FILE = FontBookTests/Info.plist;
